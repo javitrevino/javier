@@ -1,35 +1,27 @@
 {
     "cells": [
         {
-            "title": "Prototipos Modernos",
+            "title": "Sketch",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         },
         {
-            "title": "Animación",
+            "title": "Invision",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         },
         {
-            "title": "Specs",
+            "title": "Principle",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         },
         {
-            "title": "Definición De Producto",
+            "title": "Flinto",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         },
         {
-            "title": "Eficacía en tu proceso",
+            "title": "Framer X",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         },
         {
-            "title": "Claridad",
-            "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
-        },
-        {
-            "title": "Visión",
-            "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
-        },
-        {
-            "title": "JavaScript ó valores",
+            "title": "React",
             "image": "https://dl.dropboxusercontent.com/s/iachea4tecnrm1h/logo-origami.png?dl=0"
         }
     ]
