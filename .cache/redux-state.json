@@ -416,7 +416,7 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.0"
+            "version": "^2.0.33"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -576,12 +576,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-04T02:28:01.991Z",
+      "buildTime": "2018-11-04T02:37:12.036Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3a4b00b0ea128d43f83215e71ea0ddd0",
+        "contentDigest": "28bdbd23020993c82f2547a0b9f7785b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -821,7 +821,7 @@
         "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZzw6bCtknChyMPGsKuwqxMw5YECgsgPMOIdHnDv8KSD8OFw7EHI3TCqnwjHEMHOcKkwopHCsOkFH3CiUwPD8KzSUTDhQDDjk3CoHTCssKQw77DlmLCiBolwpQ"
       }
     },
-    "PLUGINS_HASH": "600c564bec22b2e378cf6c811f446158"
+    "PLUGINS_HASH": "da238621c979440bed09c7d3e111385e"
   },
   "componentDataDependencies": {
     "nodes": {
