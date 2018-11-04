@@ -1,7 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import "./Header.css";
+import styled from 'styled-components'
 
+const QuoteBtn = styled.a` 
+background: linear-gradient(121deg, #015FDF, #1ED2FC);
+border-radius: 15px;
+font-size: 22px;
+line-height: 40px;
+font-weight: 500;
+width: 138px;
+height: 40px;
+text-align: center;
+vertical-align: middle;
+
+
+`
 class Header extends React.Component {
 
   constructor(props) {
@@ -32,10 +46,10 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"> <img src="" alt="Logo" ></img> </Link>
-          <Link>Principios</Link>
-          <Link>Interaction</Link>
-          <Link>Contacto</Link>
+          <Link to="/"> <img src={require('../images/interaction-logo.png')} alt="Interaction" width="200" ></img> </Link>
+          <Link>Servicios</Link>
+          <Link>Portfolio</Link>
+          <QuoteBtn>Cotizar</QuoteBtn>
         </div>
       </div>
     )

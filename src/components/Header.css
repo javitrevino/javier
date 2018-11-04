@@ -12,10 +12,10 @@
     backdrop-filter: blur(20px);
 }
 .HeaderGroup {
-    max-width: 800px;
+
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
@@ -24,7 +24,7 @@
     color: white;
     font-weight: 500;
     font-size: 21px;
-
+cursor: pointer;
 }
 
 

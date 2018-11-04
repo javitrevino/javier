@@ -1,15 +1,64 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import Card from '../components/Card'
 import Section from '../components/Section'
 import Wave from '../components/Wave'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
-
-
 import staticdata from '../../staticdata.json'
+
+
+const BtnGroup = styled.div`
+display: grid;
+grid-template-columns: 280px 280px;
+grid-gap: 1px;
+padding: 40px;
+justify-content: center;
+`
+const MainBtn = styled.a` 
+background: linear-gradient(125deg, #015FDF, #1ED2FC);
+border: 1px solid hsl(0, 0%, 100%);
+border-radius: 97px;
+font-weight: 600;
+font-size: 21px;
+line-height: 64px;
+text-transform: uppercase;
+color: white;
+display: block;
+width: 250px;
+height: 64px;
+transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+&:hover{
+    /* background: 0 10px 20px rgba(0,0,0, 0.85); */
+    color: #dcdde1;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+
+}
+
+`
+
+const SideBtn = styled.button` 
+background: rgba(0, 0, 0, 0.75);
+border: 1px solid hsl(0, 0%, 100%);
+border-radius: 97px;
+font-weight: 600;
+font-size: 21px;
+line-height: 64px;
+text-transform: uppercase;
+color: white;
+display: block;
+width: 250px;
+height: 64px;
+transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+&:hover{
+    /* background: 0 10px 20px rgba(0,0,0, 0.85); */
+    color: #dcdde1;
+    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+
+}
+
+`
 
 const SectionCaption = styled.h1`
   font-weight: 600;
@@ -37,17 +86,13 @@ const IndexPage = () => (
   <Layout>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Prototipos Móviles </h1>
-        <p>Ayudamos a los emprendedores a diseñar y prototipar apps en alta fidelidad como ninguna otra empresa en México. Nuestro énfasis es en motion design, idear experiencias y generar las specs para desarrolladores. </p>
-        <Link to="/page-2/">Cotizar</Link>
-        <div className="Logos">
-          <img alt="Sketch" src={require('../images/logo-sketch.png')} width="75" />
-          <img alt="Marvel" src={require('../images/logo-marvel.png')} width="75" />
-          <img alt="Origami" src={require('../images/logo-origami.png')} width="75" />
-          <img alt="Framer X" src={require('../images/logo-framerx.png')} width="75" />
-          <img alt="Flinto" src={require('../images/logo-flinto.png')} width="75" />
-          <img alt="Principle" src={require('../images/logo-principle.png')} width="75" />
-        </div>
+        <h1>Diseño UI + Prototipos </h1>
+        <p>Interaction es la única empresa en México dedicada 100% al diseño UI/UX y prototipos de apps. Ayudamos a las empresas y startups en el diseño de pantallas, experiencia de usuario y  prototipos interactivos para que puedan desarrollar software increíble.</p>
+        <BtnGroup>
+          <MainBtn to="/page-2/">Cotizar Ya</MainBtn>
+        <SideBtn to="/page-2/">Conocer Más</SideBtn>
+        </BtnGroup>
+        
         <Wave />
       </div>
     </div>

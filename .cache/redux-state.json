@@ -1,19 +1,28 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5d91252fd953f4ae55486b1f36a83667",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin dev-404-page": {
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "Plugin dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -41,14 +50,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a4c1e31b746640fa35acd82f44b186fb",
+        "contentDigest": "3769defb8e1531e99cb5af0dbef1c936",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin load-babel-config": {
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "Plugin load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
       "pluginOptions": {
@@ -76,14 +85,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55a21bd774d080818f8ce85e3137f0bc",
+        "contentDigest": "25a069397e3fbd0ae823e4da655a9069",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin internal-data-bridge": {
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "Plugin internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -112,14 +121,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a7cdf90a568a73488b74488fdb09b9a7",
+        "contentDigest": "7bd5542f3b4e4181e225c0d42d784026",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin prod-404": {
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "Plugin prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -147,14 +156,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "91e5cc43e8b961256824f0d2d60395f2",
+        "contentDigest": "6f304e516220955b86b4e922f91c6926",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin query-runner": {
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "Plugin query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
@@ -182,16 +191,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c0befa7094ffc084ac85c983d1f0a050",
+        "contentDigest": "8605096f5bebaf67e4157b0f183aceeb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-react-helmet": {
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby-plugin-react-helmet",
-      "id": "Plugin gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "pluginOptions": {
         "plugins": []
       },
@@ -204,7 +213,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.0",
+        "version": "3.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -243,6 +252,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -263,16 +276,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7ef677f9f60647566d4e5e2188b32d04",
+        "contentDigest": "6ea8b2137a5d8a0b0d984b98b15ea15a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-source-contentful": {
+    "0a8214f1-abb8-59a2-b3dd-d7dc21b556c0": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby-source-contentful",
-      "id": "Plugin gatsby-source-contentful",
+      "id": "0a8214f1-abb8-59a2-b3dd-d7dc21b556c0",
       "name": "gatsby-source-contentful",
-      "version": "2.0.3",
+      "version": "2.0.10",
       "pluginOptions": {
         "plugins": [],
         "space": "v02i0eq7jigg",
@@ -291,7 +304,7 @@
       "packageJson": {
         "name": "gatsby-source-contentful",
         "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.3",
+        "version": "2.0.10",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -334,7 +347,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.6"
+            "version": "^2.0.11"
           },
           {
             "name": "is-online",
@@ -363,6 +376,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.1.4"
           }
@@ -370,7 +387,7 @@
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": ">2.0.0-alpha"
+            "version": "^2.0.33"
           }
         ],
         "optionalDependecies": [],
@@ -379,14 +396,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e57659ce3fdb0b0570bd58692660e0f8",
+        "contentDigest": "62a172337bb8b4f310d1cebdedb0bf13",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin default-site-plugin": {
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/javier/portfolio2018/javier",
-      "id": "Plugin default-site-plugin",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "ca4b3677f5d48fe32f6f3f19b9060d18",
       "pluginOptions": {
@@ -456,16 +473,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a45c81eb86647eb7427b2aacea75d71c",
+        "contentDigest": "99cb6307bb18d5530566f7c8f661a06b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-page-creator": {
+    "e69eade0-aa6b-5916-b0e0-11729b15f483": {
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby-plugin-page-creator",
-      "id": "Plugin gatsby-plugin-page-creator",
+      "id": "e69eade0-aa6b-5916-b0e0-11729b15f483",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.0",
+      "version": "2.0.2",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/javier/portfolio2018/javier/src/pages",
@@ -480,7 +497,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.0",
+        "version": "2.0.2",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -535,6 +552,10 @@
             "version": "^7.0.0"
           },
           {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
             "name": "cross-env",
             "version": "^5.0.5"
           }
@@ -551,7 +572,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8684f2ae1b5b18dfb366ef20632458f2",
+        "contentDigest": "e0b36d36a656d367bd8ca1a829aa01e3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -562,14 +583,16 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-13T17:22:22.233Z",
+      "buildTime": "2018-11-04T00:12:19.583Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c04bc60a90478266772d33f6058a1e5e",
+        "contentDigest": "007d15ceea242802541b4f0122525dc2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -587,18 +610,18 @@
         "owner": "gatsby-source-contentful"
       }
     },
-    "690df28f-ba2a-508f-974e-e97ec0807eed": {
-      "title": "Home",
-      "url": "/",
-      "id": "690df28f-ba2a-508f-974e-e97ec0807eed",
-      "contentful_id": "5D4cKM8OOcuSycYqe8QYiI",
-      "createdAt": "2018-10-11T18:46:39.077Z",
-      "updatedAt": "2018-10-11T18:46:39.077Z",
+    "cf0ecc2b-55ad-5ca8-9697-d2b7052783e8": {
+      "title": "Origen",
+      "url": "/nosotros",
+      "id": "cf0ecc2b-55ad-5ca8-9697-d2b7052783e8",
+      "contentful_id": "5jKYd4BUZGk0WO8gesiU68",
+      "createdAt": "2018-10-11T21:29:49.996Z",
+      "updatedAt": "2018-10-13T01:12:29.330Z",
       "parent": "link",
       "children": [],
       "internal": {
         "type": "ContentfulLink",
-        "contentDigest": "bdb54f5d7fa9995322a79b5504706060",
+        "contentDigest": "e4210151d0aabee84aabf9bb637549aa",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-US"
@@ -619,22 +642,6 @@
       },
       "node_locale": "en-US"
     },
-    "cf0ecc2b-55ad-5ca8-9697-d2b7052783e8": {
-      "title": "Origen",
-      "url": "/nosotros",
-      "id": "cf0ecc2b-55ad-5ca8-9697-d2b7052783e8",
-      "contentful_id": "5jKYd4BUZGk0WO8gesiU68",
-      "createdAt": "2018-10-11T21:29:49.996Z",
-      "updatedAt": "2018-10-13T01:12:29.330Z",
-      "parent": "link",
-      "children": [],
-      "internal": {
-        "type": "ContentfulLink",
-        "contentDigest": "e4210151d0aabee84aabf9bb637549aa",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
     "9e4e3a6e-3aae-5aad-8245-6a335ee7b99d": {
       "title": "Principios",
       "url": "/principios",
@@ -651,6 +658,91 @@
       },
       "node_locale": "en-US"
     },
+    "690df28f-ba2a-508f-974e-e97ec0807eed": {
+      "title": "Home",
+      "url": "/",
+      "id": "690df28f-ba2a-508f-974e-e97ec0807eed",
+      "contentful_id": "5D4cKM8OOcuSycYqe8QYiI",
+      "createdAt": "2018-10-11T18:46:39.077Z",
+      "updatedAt": "2018-10-11T18:46:39.077Z",
+      "parent": "link",
+      "children": [],
+      "internal": {
+        "type": "ContentfulLink",
+        "contentDigest": "bdb54f5d7fa9995322a79b5504706060",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "c6f73cfa-e9d3-51d6-a587-d46346681973": {
+      "id": "c6f73cfa-e9d3-51d6-a587-d46346681973",
+      "parent": null,
+      "children": [],
+      "name": "project",
+      "displayField": "projectTitle",
+      "description": "portfolio project",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "b9d1714c3610ba54a4c5237d27f1b166",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "7fe274a8-9b1b-52dd-968c-cd63565cd0aa": {
+      "id": "7fe274a8-9b1b-52dd-968c-cd63565cd0aa",
+      "parent": null,
+      "children": [],
+      "name": "Piece",
+      "displayField": "title",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "a624a9a75215149f8e7b967ce936ede8",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "eaa19219-1829-5f34-abd2-cb1d34e8dfed": {
+      "title": "Test piece",
+      "slogan": "be better",
+      "thumbnail___NODE": "9caa1245-6744-5526-9c6e-d430dd620716",
+      "id": "eaa19219-1829-5f34-abd2-cb1d34e8dfed",
+      "contentful_id": "6IkAfr2GXeWUGcg0kQcy6Q",
+      "createdAt": "2018-10-19T22:15:35.373Z",
+      "updatedAt": "2018-10-19T22:15:35.373Z",
+      "parent": "Piece",
+      "children": [],
+      "internal": {
+        "type": "ContentfulPiece",
+        "contentDigest": "7ec0f907787a23ed3a70afa70ede28c4",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "9caa1245-6744-5526-9c6e-d430dd620716": {
+      "contentful_id": "7n5K8OnX9Y80oma044AggK",
+      "id": "9caa1245-6744-5526-9c6e-d430dd620716",
+      "parent": null,
+      "children": [],
+      "file": {
+        "url": "//images.ctfassets.net/v02i0eq7jigg/7n5K8OnX9Y80oma044AggK/5ec23a11a911940ce97f71a105b3947a/Parrulo_-Muscovy_duckling.jpg",
+        "details": {
+          "size": 453019,
+          "image": {
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        "fileName": "Parrulo_-Muscovy_duckling.jpg",
+        "contentType": "image/jpeg"
+      },
+      "title": "Parrulo -Muscovy duckling",
+      "description": "",
+      "node_locale": "en-US",
+      "internal": {
+        "type": "ContentfulAsset",
+        "contentDigest": "3b3c4eed609bd8e24192b6f48735a8ef",
+        "owner": "gatsby-source-contentful"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -658,16 +750,16 @@
       "component": "/Users/javier/portfolio2018/javier/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a0759ad549aea6c5c954c1261fd3c4c",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "5e15e5fea6d1e44c0c13e672d3cab39d",
+        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
         "owner": "internal-data-bridge"
       }
     },
@@ -678,16 +770,16 @@
       "component": "/Users/javier/portfolio2018/javier/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "499cf9c4b70b2fb42143aad1d40dcbdd",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "bf1375c1466b5bba9c4ee71c273a542a",
+        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
         "owner": "internal-data-bridge"
       }
     },
@@ -698,16 +790,16 @@
       "component": "/Users/javier/portfolio2018/javier/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7aa6ac044958894b8fa874bd15291610",
-        "description": "Plugin gatsby-plugin-page-creator",
+        "contentDigest": "372623f5d5ff378b795921a62a7acce5",
+        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
         "owner": "internal-data-bridge"
       }
     },
@@ -717,17 +809,19 @@
       "path": "/404.html",
       "component": "/Users/javier/portfolio2018/javier/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
+      "context": {
+        "$ref": "$[\"nodes\"][\"SitePage /404/\"][\"context\"]"
+      },
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2e0b58c8c958828ae100be40cc9566d",
-        "description": "Plugin prod-404",
+        "contentDigest": "da57da6afabe0107e04ee8b24fcf89f5",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
     }
@@ -735,10 +829,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybCsiNzL8OHw6URIMOcY8KvwpUbbMOhKkMrw4Q3PcOfKFlWPDvCii7Cm8K3AlkYwq_Ch3HDhn_DmMOIDDN3w6HCu8O-wpEueTN_IXAuFRvCqB5xwpPDl8Kebw"
+        "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZzw6bCtknChyMPGsKuwqxMw5YECgsgPMOIdHnDv8KSD8OFw7EHI3TCqnwjHEMHOcKkwopHCsOkFH3CiUwPD8KzSUTDhQDDjk3CoHTCssKQw77DlmLCiBolwpQ"
       }
     },
-    "PLUGINS_HASH": "ca0819a8653cc97a1fb8764951944223"
+    "PLUGINS_HASH": "600c564bec22b2e378cf6c811f446158"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -761,6 +855,10 @@
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
+    },
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js"
