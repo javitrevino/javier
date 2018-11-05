@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5d91252fd953f4ae55486b1f36a83667",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -396,7 +405,7 @@
       "resolve": "/Users/javier/portfolio2018/javier",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "ca4b3677f5d48fe32f6f3f19b9060d18",
+      "version": "664a4ed5eb7c1f365876fe825b8efd71",
       "pluginOptions": {
         "plugins": []
       },
@@ -464,7 +473,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "99cb6307bb18d5530566f7c8f661a06b",
+        "contentDigest": "ffb1984cc7550d976f9c5c26b9723bd4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -574,14 +583,16 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-04T02:37:12.036Z",
+      "buildTime": "2018-11-05T01:42:45.206Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28bdbd23020993c82f2547a0b9f7785b",
+        "contentDigest": "d53cac0ecd5c6a3651bb6a0c1ce4c139",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -706,6 +717,65 @@
       },
       "node_locale": "en-US"
     },
+    "a14e2a7e-8538-59e0-8599-11ce561775c5": {
+      "id": "a14e2a7e-8538-59e0-8599-11ce561775c5",
+      "parent": null,
+      "children": [],
+      "name": "Blog",
+      "displayField": "title",
+      "description": "Project",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "ca36afc57adb0acc660ce0f11f4ca84a",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "9cc81064-a771-5cec-9db1-b60ea4a91b65": {
+      "title": "Salud Integral",
+      "slug": "salud-integral",
+      "id": "9cc81064-a771-5cec-9db1-b60ea4a91b65",
+      "contentful_id": "OBeLgC89Mq8YgSimaUs8i",
+      "createdAt": "2018-11-05T01:31:37.540Z",
+      "updatedAt": "2018-11-05T01:31:37.540Z",
+      "parent": "Blog",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBlog",
+        "contentDigest": "5e1f8456d4f72a15726427e748048c29",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "b905f73e-a371-592c-9681-0ee562588c8d": {
+      "title": "Tec de Monterrey",
+      "slug": "tec-de-monterrey",
+      "id": "b905f73e-a371-592c-9681-0ee562588c8d",
+      "contentful_id": "3SLlC3QFBYiwKmCosESO2y",
+      "createdAt": "2018-11-05T01:31:22.673Z",
+      "updatedAt": "2018-11-05T01:31:22.673Z",
+      "parent": "Blog",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBlog",
+        "contentDigest": "f9ab9e69bb36c4e5814df67db4ede06a",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
+    "bd027e84-d78b-520c-9a01-ae83ce5c8cff": {
+      "id": "bd027e84-d78b-520c-9a01-ae83ce5c8cff",
+      "contentful_id": "REAunFe6QgWcGUKC2qAg4",
+      "createdAt": "2018-11-04T22:56:19.748Z",
+      "updatedAt": "2018-11-04T22:56:19.748Z",
+      "parent": "Blog",
+      "children": [],
+      "internal": {
+        "type": "ContentfulBlog",
+        "contentDigest": "228ddb213cacb327001a727ff75bd14c",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-US"
+    },
     "9caa1245-6744-5526-9c6e-d430dd620716": {
       "contentful_id": "7n5K8OnX9Y80oma044AggK",
       "id": "9caa1245-6744-5526-9c6e-d430dd620716",
@@ -818,10 +888,10 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZzw6bCtknChyMPGsKuwqxMw5YECgsgPMOIdHnDv8KSD8OFw7EHI3TCqnwjHEMHOcKkwopHCsOkFH3CiUwPD8KzSUTDhQDDjk3CoHTCssKQw77DlmLCiBolwpQ"
+        "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZTwqfDhXPDrX_DvBHDlCTDjMOHw6DDgEjCjH9Fw788LsK2wpU8w7XDjcKuJitqcMKVwrBcEcKew5xJf8OiwqXDhAbCoS3Cq0gjw558b2jDr8OUCXUOfmUXGFTDgBA"
       }
     },
-    "PLUGINS_HASH": "da238621c979440bed09c7d3e111385e"
+    "PLUGINS_HASH": "780c0e2e9807773d677f2880c3e51cb7"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -845,6 +915,10 @@
     "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
+    },
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js"

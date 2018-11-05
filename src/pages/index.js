@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Card from '../components/Card'
+import Gif from '../components/Gif'
+import ShadowGif from '../components/ShadowGif'
 import Section from '../components/Section'
 import Wave from '../components/Wave'
 import Cell from '../components/Cell'
@@ -60,6 +62,37 @@ transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 
 `
 
+const GifsArea = styled.div` 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin:20px;
+  padding: 20px
+ `
+
+const BenefitsArea = styled.section` 
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-gap: 24px
+  margin:64px;
+  padding: 64px
+  align-content: center;
+ `
+
+const Benefit = styled.div`
+
+ `
+
+const BenefitTitle = styled.h2`
+ 
+ `
+const BenefitSubTitle = styled.h3`
+ 
+ `
+
+const BenefitsParagraph = styled.p`
+ 
+ `
 
 const SectionCaption = styled.h1`
   font-weight: 200;
@@ -82,7 +115,7 @@ const SectionCellGroup = styled.div`
   }
 `
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
 
   <Layout>
     <div className="Hero">
@@ -97,7 +130,28 @@ const IndexPage = () => (
         <Wave />
       </div>
     </div>
+    <GifsArea>
+      <Gif image={require('../images/pagination_UI.gif')} ></Gif>
+      <ShadowGif image={require('../images/enterprise_UI.gif')}></ShadowGif>
+      <Gif image={require('../images/switch_UI.gif')} ></Gif>
+      <Gif image={require('../images/socialshare_UI.gif')} ></Gif>
+      <Gif image={require('../images/hamburguermenu_UI.gif')} ></Gif>
+      <Gif image={require('../images/searchbar_UX.gif')} ></Gif>
 
+    </GifsArea>
+    <BenefitsArea>
+      <div>
+        <Gif image={require('../images/cards_UI.gif')} ></Gif>
+      </div>
+      <Benefit>
+        <div>
+          <BenefitTitle>Cultura de diseño</BenefitTitle>
+          <BenefitSubTitle> Calidad visual y funcional </BenefitSubTitle>
+          <BenefitsParagraph>El objetivo es que tú app tenga un gran aspecto visual y que ofrezca una gran experiencia de usuario para que puedas hacer software de calidad mundial.
+Un gran diseño de interfaz te ayudará a alcanzar tus objetivos de negocios u organizacionales.</BenefitsParagraph>
+        </div>
+      </Benefit>
+    </BenefitsArea>
     <SectionCaption>Herramientas principales</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
@@ -112,5 +166,6 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
 
 
