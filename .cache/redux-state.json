@@ -587,12 +587,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-05T01:42:45.206Z",
+      "buildTime": "2018-11-05T16:04:00.028Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d53cac0ecd5c6a3651bb6a0c1ce4c139",
+        "contentDigest": "b7530113dd66faa83f1daf700abab344",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
