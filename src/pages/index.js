@@ -295,10 +295,10 @@ const IndexPage = ({ data }) => (
           <MainBtn to="/page-2/">Ver Portfolio</MainBtn>
           <SideBtn href="/servicios/"> Servicios</SideBtn>
         </BtnGroup>
+        <Wave />
 
       
       </div>
-      <Wave />
     </div>
     <GifsArea>
       <Gif image={require('../images/pagination_UI.gif')} ></Gif>
