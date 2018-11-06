@@ -27,19 +27,34 @@
 cursor: pointer;
 }
 
+.Logo {
+    display: block;
+    width: 200px;
+}
+
 
 @media (max-width: 640px) {
+
+   
     .Header{
         padding: 15px 0;
     }
 
     .HeaderGroup {
         grid-template-columns: repeat(3, auto);
+            justify-content: center;
+                
     }
 
-    .Header a:nth-child(3) {
+    .Header a {
+        font-size: 18px;
+    }
+
+    .Header a:nth-child(2), .Header a:nth-child(3) {
         display: none;
     }
+    
 
     
 }
+

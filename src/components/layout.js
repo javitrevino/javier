@@ -57,11 +57,7 @@ const Layout = ({ children }) => (
           {children}
 
           <Footer data={data}>
-
-            Sitio web hecho en React por
-
-          © Interaction | Monterrey, México, 2018
-
+            Creado en React por © Interaction
           </Footer>
         </div>
       </>

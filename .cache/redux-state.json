@@ -424,6 +424,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "babel-preset-gatsby",
+            "version": "^0.1.3"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.33"
           },
@@ -461,6 +465,10 @@
           }
         ],
         "devDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.8.0"
+          },
           {
             "name": "prettier",
             "version": "^1.14.2"
@@ -583,16 +591,16 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-05T16:04:00.028Z",
+      "buildTime": "2018-11-06T01:03:29.154Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b7530113dd66faa83f1daf700abab344",
+        "contentDigest": "8df3993f09f811155ae93b460101ea10",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -891,7 +899,7 @@
         "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZTwqfDhXPDrX_DvBHDlCTDjMOHw6DDgEjCjH9Fw788LsK2wpU8w7XDjcKuJitqcMKVwrBcEcKew5xJf8OiwqXDhAbCoS3Cq0gjw558b2jDr8OUCXUOfmUXGFTDgBA"
       }
     },
-    "PLUGINS_HASH": "780c0e2e9807773d677f2880c3e51cb7"
+    "PLUGINS_HASH": "3fd373d553fb541927fbb5b34f0afa48"
   },
   "componentDataDependencies": {
     "nodes": {

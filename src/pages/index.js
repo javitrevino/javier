@@ -10,6 +10,12 @@ import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
 
+const sizes = {
+  desktop: 992,
+  tablet: 768,
+  phone: 576,
+}
+
 
 const BtnGroup = styled.div`
 display: grid;
@@ -17,7 +23,19 @@ grid-template-columns: 280px 280px;
 grid-gap: 1px;
 padding: 40px;
 justify-content: center;
+@media (max-width: 576px) {
+  display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-content: centr;
+    justify-items: center;
+
+}
+}
+    
+}
 `
+
 const MainBtn = styled.a` 
 cursor: pointer;
 background: linear-gradient(125deg, #015FDF, #1ED2FC);
@@ -32,11 +50,17 @@ display: block;
 width: 250px;
 height: 64px;
 transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+
 &:hover{
     /* background: 0 10px 20px rgba(0,0,0, 0.85); */
     color: #dcdde1;
     box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
 
+}
+
+@media screen and (max-width: 576px){
+  font-size: 18px !important;
+  margin: 32px 0px !important;
 }
 
 `
@@ -47,6 +71,10 @@ padding-top: 100px
 padding-bottom: 100px
 `
 const MainBtnNoBorder = styled.a` 
+@media (max-width: 576px){
+  font-size: 18px !important;
+}
+text-align: center;
 cursor: pointer;
 background: linear-gradient(125deg, #015FDF, #1ED2FC);
 border: 0px;
@@ -59,7 +87,7 @@ color: white;
 display: block;
 width: 250px;
 height: 64px;
-text-align: center
+text-align: center;
 transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 &:hover{
     /* background: 0 10px 20px rgba(0,0,0, 0.85); */
@@ -72,6 +100,9 @@ transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 `
 
 const SideBtn = styled.button` 
+@media (max-width: 576px){
+  font-size: 18px !important;
+}
 cursor: pointer;
 
 background: rgba(0, 0, 0, 0.75);
@@ -99,30 +130,72 @@ const GifsArea = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
-  margin:20px;
-  padding: 20px
+  padding: 20px;
+  justify-items: center;
+
+  @media (max-width: 576px){
+    grid-template-columns: 1fr;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and ( orientation: landscape){
+  display: none;
+}
+
+
+ `
+
+ const InteractionSection= styled.section`
+ margin-bottom: 140px;
+  @media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 812px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      display: none;
+      }
  `
 
 const BenefitsArea = styled.section` 
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-gap: 188px
+  grid-gap: 188px;
   margin:64px;
-  padding: 64px
+  padding: 64px;
   align-content: center;
+    @media (max-width: 576px){
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  margin: 0px;
+    justify-content: center;
+    }
+}
+
+}
+
  `
 const BenefitsAreaReversed = styled.section` 
   display: grid;
   grid-template-columns: 1fr 0.75fr;
-  grid-gap: 188px
+  grid-gap: 188px;
   margin:64px;
-  padding: 64px
+  padding: 64px;
   align-content: center;
+   @media (max-width: 576px){
+    grid-template-columns: 1fr;
+     grid-gap: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+ 
+    }
  `
 
 const Benefit = styled.div`
 display: grid;
 align-content: center;
+ 
  `
 
 const BenefitTitle = styled.h2`
@@ -132,6 +205,9 @@ font-size: 56px;
 font-weight: 500;
 text-align: center;
 margin: 0;
+   @media (max-width: 576px){
+    font-size: 32px;
+    }
  `
 const BenefitSubTitle = styled.h3`
 color: #333333;
@@ -140,6 +216,10 @@ font-size: 26px;
 font-weight: 200;
 text-align: center;
 margin: 0;
+margin: 0;
+   @media (max-width: 576px){
+    font-size: 20px;
+    }
  `
 
 const BenefitsParagraph = styled.p`
@@ -147,6 +227,14 @@ font-family: "Roboto";
 font-weight: 400;
 font-size: 26px;
 color: black;
+   @media (max-width: 576px){
+   font-size: 17px;
+      
+    }
+
+    @media (orientation: landscape){
+      font-size: 19px;
+    }
  
  `
 
@@ -161,6 +249,7 @@ const SectionCaption = styled.h1`
   font-size: 36px;
   color: #717E90;
   text-align: center;
+  margin-bottom: 64px;
  
 `
 
@@ -207,8 +296,8 @@ const IndexPage = ({ data }) => (
         <h1>Diseño UI + Prototipos </h1>
         <p>Interaction es la única empresa en México dedicada 100% al diseño UI/UX y prototipos de apps. Ayudamos a las empresas y startups en el diseño de pantallas, experiencia de usuario y  prototipos interactivos para que puedan desarrollar software increíble.</p>
         <BtnGroup>
-          <MainBtn to="/page-2/">Cotizar Ya</MainBtn>
-          <SideBtn to="/page-2/">Conocer Más</SideBtn>
+          <MainBtn to="/page-2/">Ver Portfolio</MainBtn>
+          <SideBtn to="/page-2/"> Servicios</SideBtn>
         </BtnGroup>
 
         <Wave />
@@ -223,6 +312,7 @@ const IndexPage = ({ data }) => (
       <Gif image={require('../images/searchbar_UX.gif')} ></Gif>
 
     </GifsArea>
+    <InteractionSection>
     <BenefitsArea>
       <GifWrapper>
         <Gif image={require('../images/cards_UI.gif')} ></Gif>
@@ -232,7 +322,7 @@ const IndexPage = ({ data }) => (
           <BenefitTitle>Cultura de diseño</BenefitTitle>
           <BenefitSubTitle> Calidad visual y funcional </BenefitSubTitle>
           <BenefitsParagraph>El objetivo es que tú app tenga un gran aspecto visual y que ofrezca una gran experiencia de usuario para que puedas hacer software de calidad mundial.
-Un gran diseño de interfaz te ayudará a alcanzar tus objetivos de negocios u organizacionales.</BenefitsParagraph>
+Un gran diseño de interfaz te ayudará a alcanzar tus objetivos de negocios u organizacionales</BenefitsParagraph>
         </div>
       </Benefit>
     </BenefitsArea>
@@ -243,7 +333,7 @@ Un gran diseño de interfaz te ayudará a alcanzar tus objetivos de negocios u o
         <BenefitsParagraph>
           Tener diseños de UI y un prototipo online te permite poder presentar tu visión a  ejecutivos, desarrolladores o inversionistas sin necesidad de desarrollar partes de tu app.
 
-Interaction te ayudará a poder envisionar y dar forma a tu app antes de gastar preciadas horas de desarrollo.
+Interaction te ayudará a poder envisionar y dar forma a tu app antes de gastar preciadas horas de desarrollo
         </BenefitsParagraph>
       </div>
       <GifWrapper>
@@ -269,12 +359,13 @@ Interaction puede ayudarte a definir features nuevos, proponer interacciones o t
     </BenefitsArea>
     <BenefitsAreaReversed>
       <div>
-        <BenefitTitle>Developer Friendly</BenefitTitle>
+        <BenefitTitle>Dev Friendly</BenefitTitle>
         <BenefitSubTitle> Diseñadores de software</BenefitSubTitle>
         <BenefitsParagraph>
-        Interaction diseña proyectos de UI/UX y prototipos que son posibles de implementar,s dentro de los límites tecnológicos y lógicos de la plataforma ya sea iOS, Android o web apps. 
+      Nuestros diseños y prototipos siempre son posibles de desarrollar, ya que trabajamos dentro de los límites de las plataformas
   
-  Generamos especificaciones de desarrollo o el código relevante al UI/UX dependiendo de la necesidad del cliente. Así asegurándonos de que el diseño se pueda implementar fácilmente.
+y  damos especificaciones de desarrollo o código relevante así asegurándonos de que el diseño sea relativamente fácil de implementar
+  
         </BenefitsParagraph>
       </div>
       <GifWrapper>
@@ -285,7 +376,8 @@ Interaction puede ayudarte a definir features nuevos, proponer interacciones o t
     <ActionContainer>
       <MainBtnNoBorder>Cotiza Ya</MainBtnNoBorder>
     </ActionContainer>
-    
+    </InteractionSection>
+    <InteractionSection>
     <SectionCaption>Herramientas principales</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
@@ -297,7 +389,7 @@ Interaction puede ayudarte a definir features nuevos, proponer interacciones o t
     <ActionContainer>
     <SpecialBtn>Conocer más</SpecialBtn>
     </ActionContainer>
-
+</InteractionSection>
   </Layout >
 
 )

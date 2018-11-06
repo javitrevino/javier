@@ -13,7 +13,9 @@ width: 138px;
 height: 40px;
 text-align: center;
 vertical-align: middle;
-
+ @media (max-width: 576px){
+    width: 104px;
+    }
 
 `
 class Header extends React.Component {
@@ -46,7 +48,7 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"> <img src={require('../images/interaction-logo.png')} alt="Interaction" width="200" ></img> </Link>
+          <Link className="Logo" to="/"> <img src={require('../images/interaction-logo.png')} alt="Interaction" width="180"></img> </Link>
           <Link>Servicios</Link>
           <Link>Portfolio</Link>
           <QuoteBtn>Cotizar</QuoteBtn>

@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterGroup = styled.div`
-    background: #F1F3F5;
+background-color: rgb(51, 51, 51);
+color: white;
     padding: 50px 0;
     display: grid;
     grid-gap: 20px;
@@ -64,12 +65,7 @@ const Copyright = styled.div`
 const Footer = ({ data, children }) => (
 
     <FooterGroup>
-        <Text>Design is not just what it looks and feels like. Design is how it works.</Text>
-        <Button>Cotizar Ya</Button>
-        <LinkGroup>{data.allContentfulLink.edges.map(edge => (
-            <a href={edge.node.url}>{edge.node.title}</a>
-        ))}
-        </LinkGroup>
+
         <Copyright>{children}</Copyright>
     </FooterGroup>
 )

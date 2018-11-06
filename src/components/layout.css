@@ -32,6 +32,8 @@ p{
     font-size: 1.3em;
 }
 
+
+
 .Hero{
     background: url('../images/interaction_bg.jpg');
     height: 950px;
@@ -73,8 +75,14 @@ p{
 
 
 @media  (max-width: 640px) {
+
+    .Hero {
+        height: 1020px
+    }
+
+    
 .HeroGroup {
-    padding: 100px 20px;
+    padding: 150px 40px;
 }
 
 .Hero h1 {
@@ -83,11 +91,13 @@ p{
 
 .Hero p {
     font-size: 20px;
-    padding-bottom: 40px;
+    
 }
 
 .Hero a {
-    font-size: 17px;
+    font-size: 24px;
+     display: inline-block;
+  margin: 10px;
 }
 
 }
@@ -124,4 +134,18 @@ p{
     .Hero .Logos {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .Hero {
+          color: black;
+      }
+
+     
+
 }
