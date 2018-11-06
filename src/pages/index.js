@@ -134,27 +134,17 @@ const GifsArea = styled.div`
   justify-items: center;
 
   @media (max-width: 576px){
-    grid-template-columns: 1fr;
-    margin: 0px;
-    padding: 0px;
+     display: none;
+
 }
 
-@media only screen and ( orientation: landscape){
-  display: none;
-}
 
 
  `
 
  const InteractionSection= styled.section`
  margin-bottom: 140px;
-  @media only screen 
-  and (min-device-width: 100px) 
-  and (max-device-width: 812px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-      display: none;
-      }
+ 
  `
 
 const BenefitsArea = styled.section` 
