@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5d91252fd953f4ae55486b1f36a83667",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -582,14 +591,16 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T01:45:57.950Z",
+      "buildTime": "2018-11-06T02:51:52.839Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dd123b68945137471da7f45613b6c28a",
+        "contentDigest": "1fb26b3841f637f81a28db2cff62f7cf",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -839,26 +850,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/javier/portfolio2018/javier/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "372623f5d5ff378b795921a62a7acce5",
-        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -878,6 +869,26 @@
         "type": "SitePage",
         "contentDigest": "da57da6afabe0107e04ee8b24fcf89f5",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /servicios/": {
+      "jsonName": "servicios-6b1",
+      "internalComponentName": "ComponentServicios",
+      "path": "/servicios/",
+      "component": "/Users/javier/portfolio2018/javier/src/pages/servicios.js",
+      "componentChunkName": "component---src-pages-servicios-js",
+      "context": {},
+      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/servicios.js",
+      "id": "SitePage /servicios/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "82acb4896440b0c33e94eb02b3cf0e3d",
+        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
         "owner": "internal-data-bridge"
       }
     }
@@ -909,7 +920,8 @@
     "sq--src-components-layout-js": 1076631965,
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E"
+    "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "servicios-6b1": "847/path---servicios-6-b-1-efa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
@@ -920,9 +932,13 @@
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/index.js"
     },
-    "/Users/javier/portfolio2018/javier/src/pages/page-2.js": {
+    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/page-2.js"
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
+    },
+    "/Users/javier/portfolio2018/javier/src/pages/servicios.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/servicios.js"
     }
   },
   "staticQueryComponents": {

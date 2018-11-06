@@ -99,7 +99,7 @@ transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 
 `
 
-const SideBtn = styled.button` 
+const SideBtn = styled.a` 
 @media (max-width: 576px){
   font-size: 18px !important;
 }
@@ -301,7 +301,7 @@ const IndexPage = ({ data }) => (
         <p>Interaction es la única empresa en México dedicada 100% al diseño UI/UX y prototipos de apps. Ayudamos a las empresas y startups en el diseño de pantallas, experiencia de usuario y  prototipos interactivos para que puedan desarrollar software increíble.</p>
         <BtnGroup>
           <MainBtn to="/page-2/">Ver Portfolio</MainBtn>
-          <SideBtn to="/page-2/"> Servicios</SideBtn>
+          <SideBtn href="/servicios/"> Servicios</SideBtn>
         </BtnGroup>
 
         <Wave />
