@@ -137,9 +137,13 @@ const GifsArea = styled.div`
      display: none;
 
 }
- @media only screen and (orientation: landscape){
-   display: none;
- }
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    display: none;
+}
 
 
  `
