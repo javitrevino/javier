@@ -584,12 +584,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T01:43:02.840Z",
+      "buildTime": "2018-11-06T01:45:57.950Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "36a7ac6bc511685648ba851559b7f64b",
+        "contentDigest": "dd123b68945137471da7f45613b6c28a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
