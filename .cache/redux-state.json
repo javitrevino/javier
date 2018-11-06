@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5d91252fd953f4ae55486b1f36a83667",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -415,6 +424,10 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "@dr-kobros/react-webfont-loader",
+            "version": "^8.0.0"
+          },
+          {
             "name": "babel-preset-gatsby",
             "version": "^0.1.3"
           },
@@ -453,6 +466,10 @@
           {
             "name": "styled-components",
             "version": "^3.4.10"
+          },
+          {
+            "name": "webfontloader",
+            "version": "^1.6.28"
           }
         ],
         "devDependencies": [
@@ -582,14 +599,16 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T14:56:54.091Z",
+      "buildTime": "2018-11-06T15:28:19.019Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f4376afb8b95e396e7295f21190eced",
+        "contentDigest": "42e292ea892e0419b8258dc306db01d5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -888,7 +907,7 @@
         "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZTwqfDhXPDrX_DvBHDlCTDjMOHw6DDgEjCjH9Fw788LsK2wpU8w7XDjcKuJitqcMKVwrBcEcKew5xJf8OiwqXDhAbCoS3Cq0gjw558b2jDr8OUCXUOfmUXGFTDgBA"
       }
     },
-    "PLUGINS_HASH": "3fd373d553fb541927fbb5b34f0afa48"
+    "PLUGINS_HASH": "3924b9e7d9d45190d73d65c24d5198e1"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -913,6 +932,10 @@
     "servicios-6b1": "847/path---servicios-6-b-1-efa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
+    },
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js"

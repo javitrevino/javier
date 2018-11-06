@@ -9,12 +9,7 @@ import Wave from '../components/Wave'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
-
-const sizes = {
-  desktop: 992,
-  tablet: 768,
-  phone: 576,
-}
+import { render } from 'react-dom'
 
 
 const BtnGroup = styled.div`
@@ -147,7 +142,6 @@ const GifsArea = styled.div`
 
 
  `
-
  const InteractionSection= styled.section`
  margin-bottom: 140px;
 
@@ -397,6 +391,7 @@ y  damos especificaciones de desarrollo o código relevante así asegurándonos 
   </Layout >
 
 )
+
 
 export default IndexPage
 
