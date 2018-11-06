@@ -1,12 +1,11 @@
 import React from 'react'
-import Wave from '../components/Wave'
 import Layout from '../components/layout'
 import Gif from '../components/Gif'
 import ShadowGif from '../components/ShadowGif'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
-
+import Wave from '../components/Wave'
 
 const BtnGroup = styled.div`
 display: grid;
