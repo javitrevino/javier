@@ -1,15 +1,11 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
-import Card from '../components/Card'
 import Gif from '../components/Gif'
 import ShadowGif from '../components/ShadowGif'
-import Section from '../components/Section'
 import Wave from '../components/Wave'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
-import { render } from 'react-dom'
 
 
 const BtnGroup = styled.div`

@@ -603,12 +603,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T15:28:19.019Z",
+      "buildTime": "2018-11-06T15:58:45.473Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "42e292ea892e0419b8258dc306db01d5",
+        "contentDigest": "a257273f2f0b2868f7c75a24d88a90ed",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -932,10 +932,6 @@
     "servicios-6b1": "847/path---servicios-6-b-1-efa-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
-    },
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js"
@@ -947,6 +943,10 @@
     "/Users/javier/portfolio2018/javier/src/pages/servicios.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/servicios.js"
+    },
+    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
