@@ -1,8 +1,8 @@
 import React from 'react'
+import Wave from '../components/Wave'
 import Layout from '../components/layout'
 import Gif from '../components/Gif'
 import ShadowGif from '../components/ShadowGif'
-import Wave from '../components/Wave'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
@@ -239,11 +239,14 @@ const GifWrapper = styled.div`
  `
 
 const SectionCaption = styled.h1`
+
+
   font-weight: 200;
-  font-size: 36px;
+  font-size: 32px;
   color: #717E90;
+
   text-align: center;
-  margin-bottom: 64px;
+  margin-bottom:90px;
  
 `
 
