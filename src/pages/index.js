@@ -300,15 +300,7 @@ const IndexPage = ({ data }) => (
       
       </div>
     </div>
-    <GifsArea>
-      <Gif image={require('../images/pagination_UI.gif')} ></Gif>
-      <ShadowGif image={require('../images/enterprise_UI.gif')}></ShadowGif>
-      <Gif image={require('../images/switch_UI.gif')} ></Gif>
-      <Gif image={require('../images/socialshare_UI.gif')} ></Gif>
-      <Gif image={require('../images/hamburguermenu_UI.gif')} ></Gif>
-      <Gif image={require('../images/searchbar_UX.gif')} ></Gif>
-
-    </GifsArea>
+ 
     <InteractionSection>
     <BenefitsArea>
       <GifWrapper>
@@ -376,7 +368,13 @@ y  damos especificaciones de desarrollo o código relevante así asegurándonos 
     </InteractionSection>
     <InteractionSection>
     <SectionCaption>Herramientas principales</SectionCaption>
-    
+    <SectionCellGroup>
+      {staticdata.cells.map(cell => (
+        <Cell
+          title={cell.title}
+          image={cell.image} />
+      ))}
+    </SectionCellGroup>
     <ActionContainer>
     <SpecialBtn>Conocer más</SpecialBtn>
     </ActionContainer>
