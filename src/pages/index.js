@@ -376,13 +376,7 @@ y  damos especificaciones de desarrollo o código relevante así asegurándonos 
     </InteractionSection>
     <InteractionSection>
     <SectionCaption>Herramientas principales</SectionCaption>
-    <SectionCellGroup>
-      {staticdata.cells.map(cell => (
-        <Cell
-          title={cell.title}
-          image={cell.image} />
-      ))}
-    </SectionCellGroup>
+    
     <ActionContainer>
     <SpecialBtn>Conocer más</SpecialBtn>
     </ActionContainer>
