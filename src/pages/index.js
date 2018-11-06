@@ -137,13 +137,19 @@ const GifsArea = styled.div`
      display: none;
 
 }
-
+ @media only screen and (orientation: landscape){
+   display: none;
+ }
 
 
  `
 
  const InteractionSection= styled.section`
  margin-bottom: 140px;
+
+ @media only screen and (orientation: landscape){
+   display: none;
+ }
  
  `
 
