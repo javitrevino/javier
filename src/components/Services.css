@@ -1,0 +1,38 @@
+.AppBlock {
+    display: grid;
+justify-items: center;
+ 
+}
+
+p{
+    margin: 16px;
+    font-size: 18px;
+}
+
+.AppBlock p {
+    font-size: 17px;
+    font-weight: 200;
+text-align: center;
+}
+
+.UnevenExample {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 80px;
+    justify-items: center;
+}
+
+.ExamplesGroup div 
+{
+        display: grid;
+    justify-items: center;
+}
+
+@media (max-width: 640px) {
+    .UnevenExample {
+    display: none;
+}
+}
+
+
+

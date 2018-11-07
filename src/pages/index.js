@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Gif from '../components/Gif'
-import ShadowGif from '../components/ShadowGif'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
 import Wave from '../components/Wave'
+import '../components/Services.css'
 
 const BtnGroup = styled.div`
 display: grid;
@@ -153,7 +153,7 @@ const GifsArea = styled.div`
 const BenefitsArea = styled.section` 
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-gap: 188px;
+  grid-gap: 64px;
   margin:64px;
   padding: 64px;
   align-content: center;
@@ -171,7 +171,7 @@ const BenefitsArea = styled.section`
 const BenefitsAreaReversed = styled.section` 
   display: grid;
   grid-template-columns: 1fr 0.75fr;
-  grid-gap: 188px;
+  grid-gap: 64px;
   margin:64px;
   padding: 64px;
   align-content: center;

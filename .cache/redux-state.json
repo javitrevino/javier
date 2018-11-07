@@ -276,7 +276,7 @@
       "resolve": "/Users/javier/portfolio2018/javier/node_modules/gatsby-source-contentful",
       "id": "0a8214f1-abb8-59a2-b3dd-d7dc21b556c0",
       "name": "gatsby-source-contentful",
-      "version": "2.0.10",
+      "version": "2.0.12",
       "pluginOptions": {
         "plugins": [],
         "space": "v02i0eq7jigg",
@@ -295,7 +295,7 @@
       "packageJson": {
         "name": "gatsby-source-contentful",
         "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.10",
+        "version": "2.0.12",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -338,7 +338,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.11"
+            "version": "^2.0.12"
           },
           {
             "name": "is-online",
@@ -387,7 +387,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "62a172337bb8b4f310d1cebdedb0bf13",
+        "contentDigest": "7f056c26141edc52db0c12b8c053939d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -440,7 +440,7 @@
           },
           {
             "name": "gatsby-source-contentful",
-            "version": "^2.0.3"
+            "version": "^2.0.12"
           },
           {
             "name": "react",
@@ -592,12 +592,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-06T17:31:29.354Z",
+      "buildTime": "2018-11-07T15:58:44.463Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "24177b7c10e42376c9384ed3ea72e29e",
+        "contentDigest": "378753855225410ddea66f692147f442",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -896,7 +896,7 @@
         "undefined-master-cdn.contentful.com": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZTwqfDhXPDrX_DvBHDlCTDjMOHw6DDgEjCjH9Fw788LsK2wpU8w7XDjcKuJitqcMKVwrBcEcKew5xJf8OiwqXDhAbCoS3Cq0gjw558b2jDr8OUCXUOfmUXGFTDgBA"
       }
     },
-    "PLUGINS_HASH": "3924b9e7d9d45190d73d65c24d5198e1"
+    "PLUGINS_HASH": "1480a337f104afb03624add89bed6c3a"
   },
   "componentDataDependencies": {
     "nodes": {

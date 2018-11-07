@@ -51,7 +51,7 @@ p{
 
 .HeroAlt{
     background: url('../images/bg-alt.jpg');
-    height: 950px;
+    height: 760px; 
     background-size: cover;
     background-position: center;
     position: relative;
@@ -100,22 +100,27 @@ p{
 
 
 
-@media  (max-width: 640px) {
+@media  (max-width: 736px) {
 
     .Hero {
         height: 1020px
     }
+.HeroAlt {
+        height: 760px
+    }
+
+
 
     
 .HeroGroup {
     padding: 150px 40px;
 }
 
-.Hero h1 {
+.Hero h1, .HeroAlt h1 {
     font-size: 35px;
 }
 
-.Hero p {
+.Hero p , .HeroAlt p{
     font-size: 20px;
     
 }
@@ -156,6 +161,9 @@ p{
 }
 
 @media (max-width: 640px) {
+
+    .HeroAlt
+    { margin-bottom: 56px;}
 
     .Hero .Logos {
         grid-template-columns: repeat(3, 1fr);
