@@ -64,7 +64,8 @@ const ContactPage = ({ data }) => (
         </div >
 
         <FormTitle> Cuentanos acerca de tu proyecto </FormTitle>
-        <form className="Form" name="cotizaciones" method="POST" data-netlify="true" action="/success">
+        <form className="Form" name="cotizaciones" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
+            <input type="hidden" name="form-name" value="cotizaciones" />
             <p>
                 <label>Nombre
                     <input type="text" name="name" /></label>
@@ -79,7 +80,6 @@ const ContactPage = ({ data }) => (
 
             <p>
                 <label>Mensaje <textarea name="message"></textarea></label>
-                <input type="hidden" name="form-name" value="contact" />
 
             </p>
             <p>
