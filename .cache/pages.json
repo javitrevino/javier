@@ -15,6 +15,31 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-cotiza-js",
+        "jsonName": "cotiza-298",
+        "path": "/cotiza/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-dispoable-js",
+        "jsonName": "dispoable-ab2",
+        "path": "/dispoable/"
+    },
+    {
+        "componentChunkName": "component---src-pages-portfolio-js",
+        "jsonName": "portfolio-964",
+        "path": "/portfolio/"
+    },
+    {
+        "componentChunkName": "component---src-pages-project-js",
+        "jsonName": "project-3d8",
+        "path": "/project/"
+    },
+    {
         "componentChunkName": "component---src-pages-servicios-js",
         "jsonName": "servicios-6b1",
         "path": "/servicios/"

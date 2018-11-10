@@ -23,9 +23,7 @@ display: grid;
   
 }
 
-
  `
-
 const ExamplesText = styled.div`
  padding: 8px;
  margin-bottom: 88px;
@@ -49,9 +47,9 @@ text-align: center;
 margin-bottom: 71px;
 
 @media only screen and (max-width: 640px) {
-font-size: 40px;
+font-size:24px;
 text-align: center;
-margin: 20px;
+margin: 40px;
 }
 `
 
@@ -78,9 +76,11 @@ margin-top: 16px;
 margin-bottom: 54px;
 justify-items: center;
 @media only screen and (max-width: 640px) {
+  
       justify-content: center;
       margin-top: 32px;
       margin-bottom: 8px;
+      grid-template-columns: repeat(3, 104px);
   
 }
 
@@ -93,18 +93,14 @@ grid-gap: 10px;
 grid-template-columns: 1fr 1fr;
 justify-items: center;
 @media only screen and (max-width: 640px) {
-      display: grid;
-    grid-gap: 80px;
-    grid-template-columns: 1fr;
-    padding: 24px;
-    margin: 8px;
+      display: none;
   
 }
 
 `
 
 const ExampleImg = styled.img`
-  box-shadow: 3px 9px 51px -6px rgba(173,173,173,1);
+    box-shadow: 3px 9px 88px -6px rgb(226, 226, 226);
   width: 500px;
   @media only screen and (max-width: 640px) {
       width: 350px;
@@ -153,7 +149,7 @@ const ServicesPage = ({ data }) => (
       <div className="HeroAltGroup">
         <h1>UI/UX en Monterrey</h1>
         <p>
-          Nuestro proceso de diseño UX/UI ayuda a las empresas y stratups a diseñar y prototipar apps
+          Nuestro proceso de diseño UX/UI ayuda a las empresas de software y startups a diseñar y prototipar apps
            de iOS, Android y web apps modernas. Desde diseños UI de las pantallas,
             pasando por prototipos e interacciones animadas hasta workflows avanzados
            con componentes de código. Interaction es la única empresa que ofrece servicios de diseño UI y UX en Monterrey, somos especialistas en este rubro y nada más.

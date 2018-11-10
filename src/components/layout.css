@@ -36,7 +36,7 @@ p{
 
 .Hero{
     background: url('../images/interaction_bg.jpg');
-    height: 950px;
+    height: 800px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -51,23 +51,34 @@ p{
 
 .HeroAlt{
     background: url('../images/bg-alt.jpg');
-    height: 760px; 
+    height: 800px;
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 
+.HeroProject{
+    background: url('../images/ocean_bg.png');
+    height: 900px; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+
 .HeroAltGroup {
-    margin: 0 auto;
+  margin: 0 auto;
     max-width: 800px;
-    padding: 250px 50px;
+    padding:250px 50px;
     text-align: center;
 }
 
 
 
 
-.Hero h1, .HeroAlt h1 {
+.Hero h1, .HeroAlt h1, .HeroProject h1 {
     font-weight: 600;
     margin: 0;
     color: white;
@@ -81,7 +92,22 @@ p{
     animation-timing-function: cubic-bezier(0.2, 0.8, 0.1, 1);
 }
 
-.Hero p, .HeroAlt p {
+.HeroProject h2
+{
+        font-weight: 300;
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    line-height: 1.2;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.1, 1);
+}
+
+.Hero p, .HeroAlt p, .HeroProject p{
     color: rgba(255, 255 ,255 , 1);
     font-size: 30px;
     line-height: 1.5;
@@ -102,11 +128,13 @@ p{
 
 @media  (max-width: 736px) {
 
-    .Hero {
+    .Hero, .HeroProject {
         height: 1020px
     }
+
+    
 .HeroAlt {
-        height: 760px
+        height: 960px
     }
 
 
@@ -116,11 +144,15 @@ p{
     padding: 150px 40px;
 }
 
-.Hero h1, .HeroAlt h1 {
+.Hero h1, .HeroAlt h1, .HeroProject h1 {
     font-size: 35px;
 }
 
-.Hero p , .HeroAlt p{
+.HeroProject h2 {
+    font-size: 21px;
+}
+
+.Hero p , .HeroAlt p, .HeroProject p{
     font-size: 20px;
     
 }
@@ -160,15 +192,6 @@ p{
 
 }
 
-@media (max-width: 640px) {
-
-    .HeroAlt
-    { margin-bottom: 56px;}
-
-    .Hero .Logos {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
 /* Landscape */
 @media only screen 
@@ -182,4 +205,134 @@ p{
 
      
 
+}
+
+.Screen {
+    width: 300px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0px 1px 5px 0px #dfdfdf57;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+
+}
+
+.Screen:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 30px 60px rgba(0,0,0, 0.2);
+}
+
+.InvisionCta {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+a.AnchorInvisionWrapper {
+    display: grid;
+    /* justify-content: center; */
+    justify-items: center;
+}
+
+.PieceHeaderTitle {
+    font-size: 40px;
+    font-weight: 200;
+
+   
+}
+
+
+
+@media (max-width: 640px) {
+
+    .HeroAlt
+    { 
+    margin-bottom: 56px;
+    }
+
+    .Hero .Logos {
+    grid-template-columns: repeat(3, 1fr);
+    }
+
+     .PieceHeaderTitle {
+    font-size: 25px;
+    font-weight:500;
+ 
+    }
+}
+
+.MobileMenu {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-rows: repeat(4, 40px);
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    opacity: 0.8;
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    
+}
+
+.FabMaster{
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.MobileMenu a {
+   color: white;
+   font-size: 28px;
+   margin: 4px;
+   padding: 48px;
+   transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.CloseTrigger {
+    display: grid;
+    position: fixed;
+    top: 96px;
+    right: 44px;
+    z-index: 1;
+}
+
+.FormContainer {
+    display: grid;
+    justify-content: center;
+}
+
+form.Form {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.Form label{
+    font-size: 19px;
+    font-family: 'Poppins';
+    display: block;
+}
+input {
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 3px;
+    display: block;
+    width: 356px;
+    height: 40px;
+    margin-top: 12px;
+    
+}
+
+textarea {
+    border: 1px solid rgba(0,0,0, 0.1);
+    border-radius: 3px;
+    display: block;
+    width: 556px;
+    margin-top: 12px;
+    height: 199px;
+    padding: 8px;
+    font-size: 17px;
 }

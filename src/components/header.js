@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import "./Header.css";
 import styled from 'styled-components'
 
+
 const QuoteBtn = styled.a` 
 background: linear-gradient(121deg, #015FDF, #1ED2FC);
 border-radius: 15px;
@@ -43,15 +44,14 @@ class Header extends React.Component {
     }
   }
 
-
   render() {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
           <Link className="Logo" to="/"> <img src={require('../images/interaction-logo.png')} alt="Interaction" width="180"></img> </Link>
-          <Link>Servicios</Link>
-          <Link>Portfolio</Link>
-          <QuoteBtn>Cotizar</QuoteBtn>
+          <Link to="/servicios">Servicios</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <QuoteBtn href="/contact">Cotizar</QuoteBtn>
         </div>
       </div>
     )

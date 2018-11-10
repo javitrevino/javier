@@ -6,6 +6,23 @@ import styled from 'styled-components'
 import staticdata from '../../staticdata.json'
 import Wave from '../components/Wave'
 import '../components/Services.css'
+import Fab from '../components/Fab'
+import posed from "react-pose";
+
+
+const config = {
+  off: {
+    opacity: 0.5,
+    scale: 0
+  },
+
+  on: {
+    opacity: 1,
+    scale: 1
+  }
+};
+
+posed(Fab)
 
 const BtnGroup = styled.div`
 display: grid;
@@ -40,6 +57,7 @@ display: block;
 width: 250px;
 height: 64px;
 transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+
 
 &:hover{
     /* background: 0 10px 20px rgba(0,0,0, 0.85); */
@@ -211,7 +229,7 @@ text-align: center;
 margin: 0;
 margin: 0;
    @media (max-width: 576px){
-    font-size: 20px;
+    font-size: 18px;
     }
  `
 
@@ -238,14 +256,16 @@ const GifWrapper = styled.div`
  `
 
 const SectionCaption = styled.h1`
-
-
   font-weight: 200;
   font-size: 32px;
   color: #717E90;
 
   text-align: center;
   margin-bottom:90px;
+
+  @media (max-width: 640px){
+    font-size: 21px;
+  }
  
 `
 
@@ -287,20 +307,21 @@ transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 const IndexPage = ({ data }) => (
 
   <Layout>
+
+
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Diseño UI + Prototipos </h1>
         <p>Interaction es la única empresa en México dedicada 100% al diseño UI/UX y prototipos de apps. Ayudamos a las empresas y startups en el diseño de pantallas, experiencia de usuario y  prototipos interactivos para que puedan desarrollar software increíble.</p>
         <BtnGroup>
-          <MainBtn to="/page-2/">Ver Portfolio</MainBtn>
+          <MainBtn  href="/portfolio/">Ver Portfolio</MainBtn>
           <SideBtn href="/servicios/"> Servicios</SideBtn>
         </BtnGroup>
-        <Wave />
 
       
       </div>
     </div>
- 
+
     <InteractionSection>
     <BenefitsArea>
       <GifWrapper>
@@ -310,8 +331,8 @@ const IndexPage = ({ data }) => (
         <div>
           <BenefitTitle>Cultura de diseño</BenefitTitle>
           <BenefitSubTitle> Calidad visual y funcional </BenefitSubTitle>
-          <BenefitsParagraph>El objetivo es que tú app tenga un gran aspecto visual y que ofrezca una gran experiencia de usuario para que puedas hacer software de calidad mundial.
-Un gran diseño de interfaz te ayudará a alcanzar tus objetivos de negocios u organizacionales</BenefitsParagraph>
+          <BenefitsParagraph>El objetivo de Interaction es que tú app tenga un gran aspecto visual y que ofrezca una gran experiencia de usuario para que puedas hacer software de calidad mundial.
+Un gran diseño de interfaz y experiencia de usuario te ayudará a alcanzar tus objetivos de negocios u organizacionales</BenefitsParagraph>
         </div>
       </Benefit>
     </BenefitsArea>
@@ -363,7 +384,7 @@ y  damos especificaciones de desarrollo o código relevante así asegurándonos 
 
     </BenefitsAreaReversed>
     <ActionContainer>
-      <MainBtnNoBorder>Cotiza Ya</MainBtnNoBorder>
+      <MainBtnNoBorder href="/cotiza">Cotiza Ya</MainBtnNoBorder>
     </ActionContainer>
     </InteractionSection>
     <InteractionSection>
@@ -376,9 +397,10 @@ y  damos especificaciones de desarrollo o código relevante así asegurándonos 
       ))}
     </SectionCellGroup>
     <ActionContainer>
-    <SpecialBtn>Conocer más</SpecialBtn>
+    <SpecialBtn href="/servicios">Conocer más</SpecialBtn>
     </ActionContainer>
 </InteractionSection>
+    <Fab />
   </Layout >
 
 )
