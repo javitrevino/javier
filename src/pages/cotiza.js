@@ -62,29 +62,29 @@ const ContactPage = ({ data }) => (
             </div>
 
         </div >
-        <FormContainer>
-            <FormTitle> Cuentanos acerca de tu proyecto </FormTitle>
-            <form className="Form" name="cotizaciones" method="POST" data-netlify="true">
-                <p>
-                    <label>Nombre
-                    <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label>Empresa
-                    <input type="text" name="name" /></label>
-                </p>
-                <p>
-                    <label>Email <input type="email" name="email" /></label>
-                </p>
 
-                <p>
-                    <label>Mensaje <textarea name="message"></textarea></label>
-                </p>
-                <p>
-                    <MainBtn type="submit">Enviar</MainBtn>
-                </p>
-            </form>
-        </FormContainer>
+        <FormTitle> Cuentanos acerca de tu proyecto </FormTitle>
+        <form className="Form" name="cotizaciones" method="POST" netlify>
+            <p>
+                <label>Nombre
+                    <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Empresa
+                    <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email <input type="email" name="email" /></label>
+            </p>
+
+            <p>
+                <label>Mensaje <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <MainBtn type="submit">Enviar</MainBtn>
+            </p>
+        </form>
+
     </Layout >
 )
 

@@ -600,12 +600,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-10T18:44:17.364Z",
+      "buildTime": "2018-11-10T19:06:31.854Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7e84908db2a7c9a8ac03dc32d6a7ba5f",
+        "contentDigest": "ff20454d6e7d0f094eec50e0d620265f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
