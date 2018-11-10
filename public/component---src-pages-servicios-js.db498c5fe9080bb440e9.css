@@ -1,0 +1,1 @@
+.GifImg{margin-bottom:48px}.AppBlock{display:grid;justify-items:center}p{margin:16px;font-size:21px}.AppBlock p{font-size:17px;font-weight:200;text-align:center}.UnevenExample{grid-template-rows:auto;margin:80px}.ExamplesGroup div,.UnevenExample{display:grid;justify-items:center}@media (max-width:640px){.UnevenExample{display:none}}

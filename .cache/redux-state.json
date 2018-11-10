@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5d91252fd953f4ae55486b1f36a83667",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -607,16 +598,14 @@
         "description": "Interaction es una empresa de Monterrey, Nuevo León que ayuda a los startups y empresas de software a diseñar y prototipar sus apps en alta fidelidad. Nos enfocamos en prototipos móviles para apps de iOS, Android ó React. Nuestro servicio es único en México, ya que nuestro enfoque es exclusivamente en entregar lo mejor en UI/UX, y prototipos de alta fidelidad realizados en herramientas modernas como Sketch, Origami Studio y Framer X.Podemos generar las especificaciones para ser utilizadas de referencia por tus desarrolladores.",
         "keywords": "prototipos monterrey, diseño UI Monterrey, agencia UX Monterrey, Framer Monterrey, Sketch UI Monterrey, Diseño UX Monterrey, Origami Studio Monterrey, Interfaces Monterrey, Ux Mexico, UI Mexico, Framer Mexico, Prototipos Agencia, Prototipos Mexico"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-10T17:59:47.353Z",
+      "buildTime": "2018-11-10T18:24:39.172Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f58f17f2b717c89ce566fe20e347772e",
+        "contentDigest": "dc7c7e0ec35fb0d2ae1bb7f6366a8e40",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -846,22 +835,22 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /dispoable/": {
-      "jsonName": "dispoable-ab2",
-      "internalComponentName": "ComponentDispoable",
-      "path": "/dispoable/",
-      "component": "/Users/javier/portfolio2018/javier/src/pages/dispoable.js",
-      "componentChunkName": "component---src-pages-dispoable-js",
+    "SitePage /cotiza/": {
+      "jsonName": "cotiza-298",
+      "internalComponentName": "ComponentCotiza",
+      "path": "/cotiza/",
+      "component": "/Users/javier/portfolio2018/javier/src/pages/cotiza.js",
+      "componentChunkName": "component---src-pages-cotiza-js",
       "context": {},
       "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
       "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/dispoable.js",
-      "id": "SitePage /dispoable/",
+      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/cotiza.js",
+      "id": "SitePage /cotiza/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f0637479395ca103c6a8de3a66db87ea",
+        "contentDigest": "302e02cef5a6056d66864b99afa182df",
         "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
         "owner": "internal-data-bridge"
       }
@@ -967,26 +956,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "SitePage /cotiza/": {
-      "jsonName": "cotiza-298",
-      "internalComponentName": "ComponentCotiza",
-      "path": "/cotiza/",
-      "component": "/Users/javier/portfolio2018/javier/src/pages/cotiza.js",
-      "componentChunkName": "component---src-pages-cotiza-js",
-      "context": {},
-      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/cotiza.js",
-      "id": "SitePage /cotiza/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "302e02cef5a6056d66864b99afa182df",
-        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
-        "owner": "internal-data-bridge"
-      }
     }
   },
   "status": {
@@ -1024,17 +993,9 @@
     "cotiza-298": "952/path---cotiza-298-384-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/javier/portfolio2018/javier/.cache/dev-404-page.js"
-    },
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/404.js"
-    },
-    "/Users/javier/portfolio2018/javier/src/pages/dispoable.js": {
-      "query": "",
-      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/dispoable.js"
     },
     "/Users/javier/portfolio2018/javier/src/pages/index.js": {
       "query": "",
