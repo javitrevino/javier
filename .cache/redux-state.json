@@ -600,12 +600,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-10T19:09:26.486Z",
+      "buildTime": "2018-11-10T19:35:47.087Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b23a26df7fb5c9e51dccb1461ff7b048",
+        "contentDigest": "b84983fc0c6080650fa26eb946547586",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -935,6 +935,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /success/": {
+      "jsonName": "success-ca5",
+      "internalComponentName": "ComponentSuccess",
+      "path": "/success/",
+      "component": "/Users/javier/portfolio2018/javier/src/pages/success.js",
+      "componentChunkName": "component---src-pages-success-js",
+      "context": {},
+      "pluginCreator___NODE": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "pluginCreatorId": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/success.js",
+      "id": "SitePage /success/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "741955b02de40f37adb92973c01a66b4",
+        "description": "e69eade0-aa6b-5916-b0e0-11729b15f483",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -990,7 +1010,8 @@
     "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E",
     "dispoable-ab2": "99/path---dispoable-ab-2-f39-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "cotiza-298": "952/path---cotiza-298-384-NZuapzHg3X9TaN1iIixfv1W23E"
+    "cotiza-298": "952/path---cotiza-298-384-NZuapzHg3X9TaN1iIixfv1W23E",
+    "success-ca5": "398/path---success-ca-5-7fb-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/javier/portfolio2018/javier/src/pages/404.js": {
@@ -1016,6 +1037,10 @@
     "/Users/javier/portfolio2018/javier/src/pages/cotiza.js": {
       "query": "",
       "componentPath": "/Users/javier/portfolio2018/javier/src/pages/cotiza.js"
+    },
+    "/Users/javier/portfolio2018/javier/src/pages/success.js": {
+      "query": "",
+      "componentPath": "/Users/javier/portfolio2018/javier/src/pages/success.js"
     }
   },
   "staticQueryComponents": {
