@@ -64,7 +64,7 @@ const ContactPage = ({ data }) => (
         </div >
         <FormContainer>
             <FormTitle> Cuentanos acerca de tu proyecto </FormTitle>
-            <form className="Form" name="cotizaciones" method="POST" data-netlify="true" action="/">
+            <form className="Form" name="cotizaciones" method="POST" data-netlify="true">
                 <p>
                     <label>Nombre
                     <input type="text" name="name" /></label>
