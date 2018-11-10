@@ -79,6 +79,8 @@ const ContactPage = ({ data }) => (
 
             <p>
                 <label>Mensaje <textarea name="message"></textarea></label>
+                <input type="hidden" name="cotizaciones" value="contact" />
+
             </p>
             <p>
                 <MainBtn type="submit">Enviar</MainBtn>
